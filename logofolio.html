@@ -132,6 +132,7 @@
 <script>
 if (window !== window.top) {
   document.querySelectorAll('a').forEach(a => { if (!a.target) a.target = '_top'; });
+  document.documentElement.style.backgroundImage = 'none';
 }
 </script>
 </body>
