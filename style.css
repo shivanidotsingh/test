@@ -167,7 +167,7 @@ a:hover {
 
 .full-width-gallery img {
   height: 320px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .gallery-grid-circles {
