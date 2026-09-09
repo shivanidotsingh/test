@@ -158,7 +158,7 @@ a:hover {
 }
 
 .full-width-gallery {
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
@@ -183,9 +183,9 @@ a:hover {
 
 /* ——— FULL-WIDTH IMAGE BLOCK ——— */
 .full-width-image {
-  width: 90vw;
-  margin-left: calc(50% - 45vw);
-  margin-right: calc(50% - 45vw);
+  width: 70vw;
+  margin-left: calc(50% - 35vw);
+  margin-right: calc(50% - 35vw);
   margin-bottom: 2em;
   padding: 0 5px;
 }
