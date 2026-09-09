@@ -9,7 +9,17 @@
 
   <!-- Minimal PDF slideshow styles -->
   <style>
+    html {background: #fff;}
     .pdf-deck { width: 100%; margin: 1.5em 0; }
+
+    @media (min-width: 900px) {
+  .pdf-deck {
+    width: 60vw;
+    margin-left: calc(50% - 30vw);
+    margin-right: calc(50% - 30vw);
+  }
+}
+    
     .pdf-stage{
       position: relative;
       border-radius: 4px;
